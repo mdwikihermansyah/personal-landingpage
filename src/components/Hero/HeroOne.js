@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from "react";
 import Parallax from "parallax-js";
 import WinGrid from "./WinGrid";
 import { Link } from "react-router-dom";
+import FotoUstadz from "../../assets/images/home-landing/rm-bgustadz.png";
+import Shadow from "../../assets/images/home-one-hero-circle-orange.svg";
 
 export default function HeroOne() {
   const sceneRef = useRef(null);
@@ -113,8 +115,8 @@ export default function HeroOne() {
               </div>
               <div className=" flex sm:space-x-[40px] items-center pointer-events-auto">
                 <Link to="/blogs">
-                  <div className="py-3 home-two-btn-bg group bg-purple border-blue-seo">
-                    <span className="relative z-10 text-base font-semibold text-white transition-all duration-300 group-hover:text-purple font-inter">
+                  <div className="py-3 home-two-btn-bg group bg-orange border-blue-seo">
+                    <span className="relative z-10 text-base font-semibold text-white transition-all duration-300 group-hover:text-orange font-inter">
                       Hubungi Kami
                     </span>
                     <svg
@@ -153,7 +155,7 @@ export default function HeroOne() {
                       >
                         <path
                           d="M10.9611 8.29308L2.99228 12.8467C1.65896 13.6086 0 12.6459 0 11.1102V2.00295C0 0.467309 1.65896 -0.495425 2.99228 0.266469L10.9611 4.82011C12.3048 5.5879 12.3048 7.52529 10.9611 8.29308Z"
-                          fill="#5d50f2"
+                          fill="#F2844D"
                         />
                       </svg>
                     </span>
@@ -168,14 +170,19 @@ export default function HeroOne() {
               </div>
             </div>
             <div className="relative h-full image-area sm:ml-0 lg:ml-5 xl:ml-0">
-              <div className="xl:absolute relative 2xl:w-[752px] lg:w-[450px] xl:w-[600px]  w-full left-0 top-0 h-full">
-                {/* <!-- main image --> */}
-                <div className="relative bottom-0 left-0 z-10 w-full xl:absolute">
-                  <div className="flex justify-center w-full">
-                    <img src="./assets/images/home-one-hero-main.webp" alt="" />
+              <div className="relative xl:absolute 2xl:w-[900px] xl:w-[750px] lg:w-[600px] w-full left-0 top-0 h-full">
+                {/* Gambar utama */}
+                <div className="relative xl:absolute bottom-0 left-0 z-10 w-full">
+                  <div className="flex justify-start w-full">
+                    <img
+                      src={FotoUstadz}
+                      alt="Foto Profil Ustadz"
+                      className="w-full h-auto max-w-none"
+                    />
                   </div>
                 </div>
-                {/* <!-- tags --> */}
+
+                {/* Tag-layer animasi */}
                 <div className="absolute bottom-0 left-0 hidden w-full h-full xl:block">
                   <div
                     ref={sceneRef}
@@ -183,40 +190,39 @@ export default function HeroOne() {
                     className="relative z-10 w-full h-full pointer-events-auto"
                   >
                     <div data-depth="0.20" className="layer">
-                      <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-[#BA4AFF] 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-br-none rounded-full">
-                        Kajian Tematik
-                      </span>
-                    </div>
-                    <div data-depth="0.30" className="layer">
-                      <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-purple 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-full rounded-bl-none">
+                      <span className="inline-block px-6 xl:px-[30px] py-1.5 xl:py-2.5 bg-[#BA4AFF] text-white 2xl:text-pone xl:text-sm lg:text-pone rounded-full rounded-br-none">
                         Konsultasi Kesehatan
                       </span>
                     </div>
+                    <div data-depth="0.30" className="layer">
+                      <span className="inline-block px-6 xl:px-[30px] py-1.5 xl:py-2.5  bg-blue-sass text-white 2xl:text-pone xl:text-sm lg:text-pone rounded-full rounded-bl-none -ml-20">
+                        Kajian Tematik
+                      </span>
+                    </div>
                     <div data-depth="0.40" className="layer h-fit">
-                      <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-blue-sass 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-br-none rounded-full h-fit">
+                      <span className="inline-block px-6 xl:px-[30px] py-1.5 xl:py-2.5 bg-blue-sass text-white 2xl:text-pone xl:text-sm lg:text-pone rounded-full rounded-br-none h-fit">
                         Pemateri Berpengalaman
                       </span>
                     </div>
                     <div data-depth="0.50" className="layer h-fit">
-                      <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-[#FF8C05] 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-full rounded-bl-none h-fit">
+                      <span className="inline-block px-6 xl:px-[30px] py-1.5 xl:py-2.5 bg-[#FF8C05] text-white 2xl:text-pone xl:text-sm lg:text-pone rounded-full rounded-br-none h-fit -ml-20">
                         Penulis & Motivator
                       </span>
                     </div>
                   </div>
                 </div>
-                {/* <!-- white circle --> */}
-                <div className="absolute left-0 bottom-[100px] w-full xl:block hidden">
-                  <div className="flex justify-center">
-                    <div className="w-[533px] h-[585px] bg-white rounded-[266px]"></div>
+
+                {/* Lingkaran putih */}
+                <div className="absolute left-0 bottom-[100px] w-full hidden xl:block">
+                  <div className="flex justify-start">
+                    <div className="w-[850px] h-[700px] bg-white rounded-[325px]"></div>
                   </div>
                 </div>
-                {/* <!-- shadow --> */}
+
+                {/* Bayangan */}
                 <div className="absolute bottom-0 left-0 w-full overflow-hidden">
-                  <div className="flex justify-center">
-                    <img
-                      src="./assets/images/home-one-hero-circle-shadow.svg"
-                      alt=""
-                    />
+                  <div className="flex justify-start">
+                    <img src={Shadow} alt="Shadow" className="w-full h-auto" />
                   </div>
                 </div>
               </div>

@@ -32,7 +32,7 @@ export default function AboutOne() {
                 deployment berbasis cloud dengan standar keamanan tinggi.
               </p>
               <ul className="flex flex-wrap md:gap-[30px] gap-5 mb-[50px]">
-                <li className="flex space-x-2.5 items-center text-purple font-medium px-5 py-3 bg-main-gray border border-[#e7e3fa] leading-none rounded-full">
+                <li className="flex space-x-2.5 items-center text-orange font-medium px-5 py-3 bg-main-gray border border-[#e7e3fa] leading-none rounded-full">
                   <span>
                     <svg
                       width="18"
@@ -51,7 +51,7 @@ export default function AboutOne() {
                   </span>
                   <span>Transform & businesses</span>
                 </li>
-                <li className="flex space-x-2.5 items-center text-purple font-medium px-5 py-3 bg-main-gray border border-[#e7e3fa] leading-none rounded-full">
+                <li className="flex space-x-2.5 items-center text-orange font-medium px-5 py-3 bg-main-gray border border-[#e7e3fa] leading-none rounded-full">
                   <span>
                     <svg
                       width="18"
@@ -70,7 +70,7 @@ export default function AboutOne() {
                   </span>
                   <span>Unified product catalog</span>
                 </li>
-                <li className="flex space-x-2.5 items-center text-purple font-medium px-5 py-3 bg-main-gray border border-[#e7e3fa] leading-none rounded-full">
+                <li className="flex space-x-2.5 items-center text-orange font-medium px-5 py-3 bg-main-gray border border-[#e7e3fa] leading-none rounded-full">
                   <span>
                     <svg
                       width="18"
@@ -89,7 +89,7 @@ export default function AboutOne() {
                   </span>
                   <span>All-in-one SaaS solution</span>
                 </li>
-                <li className="flex space-x-2.5 items-center text-purple font-medium px-5 py-3 bg-main-gray border border-[#e7e3fa] leading-none rounded-full">
+                <li className="flex space-x-2.5 items-center text-orange font-medium px-5 py-3 bg-main-gray border border-[#e7e3fa] leading-none rounded-full">
                   <span>
                     <svg
                       width="18"
@@ -178,7 +178,7 @@ export default function AboutOne() {
                       <div
                         data-aos="fade-left"
                         data-aos-delay="100"
-                        className="inline-block h-fit px-[30px] py-2.5 bg-purple text-pone shadow-small shadow-purple text-white rounded-full rounded-bl-none"
+                        className="inline-block h-fit px-[30px] py-2.5 bg-orange text-pone shadow-small shadow-purple text-white rounded-full rounded-bl-none"
                       >
                         Marketing & Growth
                       </div>

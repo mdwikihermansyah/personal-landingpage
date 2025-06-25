@@ -45,7 +45,7 @@ export default function DemoHeaderOne() {
             <div
               style={{
                 backgroundImage:
-                  "linear-gradient(270deg, #794aff 50%,rgba(121, 74, 255, 0) 90.03%)",
+                  "linear-gradient(270deg, #FF6B35 50%,rgba(255, 107, 53, 0) 90.03%)",
               }}
               className="2xl:w-[1021px] w-full h-full flex items-center justify-end"
             >
@@ -184,7 +184,7 @@ export default function DemoHeaderOne() {
 
             <div className="xl:flex hidden space-x-[30px] items-center">
               <Link to="/">
-                <div className="py-3 home-two-btn-bg group bg-blue-seo border-blue-seo">
+                <div className="py-2 home-two-btn-bg group bg-blue-seo border-blue-seo">
                   <span className="relative z-10 text-base font-semibold text-white transition-all duration-300 group-hover:text-blue-seo font-inter">
                     Hubungi Kami
                   </span>
