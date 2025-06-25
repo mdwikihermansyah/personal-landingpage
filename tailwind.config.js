@@ -72,7 +72,7 @@ module.exports = {
         purple: "#F2844D",
         "main-black": "#101828",
         "main-gray": "#F3F4F9",
-        "blue-seo": "#6D6D6D",
+        "blue-seo": "#F2844D",
         "black-seo": "#27272F",
         "gray-seo": "#F4F3FE",
         "ai-soft": "#0A0118",

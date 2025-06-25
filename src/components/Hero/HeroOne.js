@@ -102,7 +102,7 @@ export default function HeroOne() {
               <h2 className="text-4xl xl:text-5xl text-main-black font-semibold mb-[35px] pointer-events-auto">
                 Mari Berdikusi, Bersama.. <br />
                 <span className="relative inline-block px-3 font-bold text-white ">
-                  <span className="relative z-10">Ahmad Najib, S.Pd, </span>
+                  <span className="relative z-10">Ahmad Nazib, S.Pd, </span>
                   <span className="absolute top-0 left-0 block w-full h-full bg-gradient-to-r from-purple"></span>
                 </span>
               </h2>
